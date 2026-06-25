@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polygon Printer 2: Timeline</title>
-    <!-- Fixed favicon reference for standard .ico compatibility -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -31,16 +30,12 @@
 </head>
 <body class="antialiased min-h-screen selection:bg-white selection:text-black">
 
-    <!-- Full-Width Hero Cover Container -->
     <header class="w-full text-center relative border-b border-white/10 bg-black">
         <div class="w-full relative flex justify-center items-center overflow-hidden max-h-[500px]">
-            <!-- Left Fade Overlay -->
             <div class="absolute left-0 top-0 bottom-0 w-1/12 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none"></div>
             
-            <!-- Official Cover Image Asset -->
             <img src="Screenshot 2026-06-17 155718.png" alt="Polygon Printer 2 Official Cover" class="w-full h-auto max-w-[1440px] object-cover block">
             
-            <!-- Right Fade Overlay -->
             <div class="absolute right-0 top-0 bottom-0 w-1/12 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none"></div>
         </div>
         
@@ -50,40 +45,35 @@
         </div>
     </header>
 
-    <!-- Interactive Scrollable Timeline Matrix -->
     <main class="max-w-4xl mx-auto px-6 py-16 relative">
         
-        <!-- Central Graphic Vertical Axis Line -->
         <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-[1px] bg-white/20 transform md:-translate-x-1/2"></div>
 
-        <!-- TIMELINE NODE: BUILD V-BETA -->
-        <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center justify-between mb-16 pl-10 md:pl-0">
-            <!-- Central Active Node Anchor Point -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between mb-16 pl-10 md:pl-0 gap-8">
             <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white border-2 border-white rounded-full transform -translate-x-1/2 z-10 animate-pulse"></div>
             
-            <!-- Right Layout Container Block -->
+            <div class="w-full md:w-[45%] border border-white/20 bg-neutral-950 aspect-video rounded-xl overflow-hidden hover:border-white/40 transition-colors shadow-[0_0_25px_rgba(255,255,255,0.02)]">
+                <iframe src="Polygon Printer 2- v-Beta (1).html" class="w-full h-full border-0" allowtransparency="true" scrolling="no"></iframe>
+            </div>
+            
             <div class="w-full md:w-[45%] border border-white/30 bg-black p-6 rounded-xl hover:border-white transition-colors duration-300 shadow-[0_0_20px_rgba(255,255,255,0.03)]">
-                <div class="text-white/40 text-[10px] font-bold tracking-widest mb-1">JUNE 18, 2026</div>
+                <div class="text-white/40 text-[10px] font-bold tracking-widest mb-1">JUNE 25, 2026</div>
                 <h2 class="text-lg font-bold uppercase tracking-wider text-white">V-BETA // Core Launch</h2>
                 <p class="text-white/80 text-xs mt-2 leading-relaxed tracking-wide">
-                    Official deployment of the updated vector shape renderer beta engine. Features stabilized grid canvas plotting, monochrome geometry optimization, and high-performance block loop restructuring.
+                    Official deployment of the updated vector shape renderer beta engine. Features position changing, color changing, side length optimazation, and more color options.
                 </p>
                 
                 <div class="mt-4 pt-4 border-t border-white/10 flex items-center justify-between gap-4">
                     <span class="text-[9px] uppercase bg-white text-black font-bold px-2 py-0.5 tracking-wider">Beta Build</span>
-                    <a href="web-releases/v2-0-0.html" target="_blank" class="text-xs font-bold uppercase tracking-wider text-white border-b border-white hover:text-white/60 hover:border-white/60 transition-colors py-0.5">
+                    <a href="Polygon Printer 2- v-Beta (1).html" target="_blank" class="text-xs font-bold uppercase tracking-wider text-white border-b border-white hover:text-white/60 hover:border-white/60 transition-colors py-0.5">
                         Run HTML Build →
                     </a>
                 </div>
             </div>
-            
-            <!-- Structural Spatial Counterweight (Desktop Alignment) -->
-            <div class="hidden md:block w-[45%]"></div>
         </div>
 
     </main>
 
-    <!-- Global Footer Layer -->
     <footer class="max-w-4xl mx-auto py-12 px-6 border-t border-white/10 text-center text-white/30 text-[9px] tracking-widest uppercase">
         <p>"Theflyingcar123" // RETAKE Digital Network</p>
     </footer>
